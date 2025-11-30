@@ -1,0 +1,7 @@
+# https://arduino.github.io/arduino-cli/1.3/library-specification/#keywords
+
+# KEYWORD1    datatypes   editor.data_type.style
+# KEYWORD2    functions   editor.function.style
+# KEYWORD3    structures  editor.function.style
+# LITERAL1    constants   editor.reserved_word_2.style
+# LITERAL2    ?           editor.function.style

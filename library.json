@@ -1,0 +1,39 @@
+{
+  "name": "CommandUart",
+  "version": "1.0.0",
+  "keywords": "CommandUart",
+  "description": "CommandUart",
+  "authors": [
+    {
+      "name": "fmeng",
+      "email": "fmeng123@gmail.com",
+      "url": "https://github.com/fmeng"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fmeng/CommandUart.git"
+  },
+  "export": {
+    "include": [
+      "src",
+      "examples",
+      "LICENSE",
+      "README.md"
+    ],
+    "exclude": [
+      ".DS_Store",
+      "src/.DS_Store",
+      "main.cpp",
+      "src/main.cpp"
+    ]
+  },
+//  "dependencies": {
+//    "bblanchon/ArduinoJson": "^6.21.0",
+//    "me-no-dev/ESPAsyncWebServer": "^1.2.3"
+//  },
+  "headers": "CommandUart.h",
+  "license": "Apache-2.0",
+  "frameworks": "*",
+  "platforms": "*"
+}
